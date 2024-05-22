@@ -60,6 +60,29 @@ const storeProducts = {
 // YOUR SOLUTION //
 
 
+// -------------- Task 3: STUDENTS -------------- //
+
+
+// Given is an object with student-ids, their name, department and grade
+
+const students = {
+  1: { name: 'Alice', department: 'Computer Science', grade: 2.2},
+  2: { name: 'Bob', department: 'Mathematics', grade: 3.4},
+  3: { name: 'Charlie', department: 'Computer Science', grade:  1.2},
+  4: { name: 'David', department: 'Mathematics', grade: 3.5},
+  5: { name: 'Eve', department: 'Physics', grade: 1.7}
+}
+
+// Write a function to group students by their grades:
+// one group (passed) should contain all student names with a grade below 3.0
+// the other group (failed) should contain all the other student names
+
+// so the result is an object in the form:
+// {passed: ['Alice', ...], failed: ['Bob', ...]}
+
+// Hint: use Object.entries() and .reduce()
+
+
 // ------------- TESTING ------------- //
 
 let task = 1;
